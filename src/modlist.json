@@ -1,0 +1,953 @@
+[
+    {
+        "mod": "AdventureZ",
+        "id": "AdventureZ",
+        "section": "额外游戏内容",
+        "links": [
+            {
+                "type": "Wiki",
+                "url": "https://globox1997.github.io/wiki/mods/AdventureZ/"
+            },
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/5052.html"
+            }
+        ]
+    },
+    {
+        "mod": "Alloy Forgery",
+        "id": "AlloyForgery",
+        "section": "额外游戏内容",
+        "links": [
+            {
+                "type": "Wiki",
+                "url": "https://docs.wispforest.io/alloy-forgery/home/"
+            },
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/4958.html"
+            }
+        ]
+    },
+    {
+        "mod": "Biomes O' PLenty",
+        "id": "BiomesOPLenty",
+        "section": "额外游戏内容",
+        "links": [
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/108.html"
+            }
+        ]
+    },
+    {
+        "mod": "Bosses Of Mass Destruction",
+        "id": "BossesOfMassDestruction",
+        "section": "额外游戏内容",
+        "links": [
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/4660.html"
+            }
+        ]
+    },
+    {
+        "mod": "Farmer's Delight",
+        "id": "FarmersDelight",
+        "section": "额外游戏内容",
+        "links": [
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/2820.html"
+            }
+        ]
+    },
+    {
+        "mod": "Lootr",
+        "id": "Lootr",
+        "section": "额外游戏内容",
+        "links": [
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/2924.html"
+            }
+        ]
+    },
+    {
+        "mod": "Mythic Metals",
+        "id": "MythicMetals",
+        "section": "额外游戏内容",
+        "links": [
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/5297.html"
+            },
+            {
+                "type": "Wiki",
+                "url": "https://wiki.mythicmetals.com/zh/"
+            }
+        ]
+    },
+    {
+        "mod": "Numismatic Overhaul",
+        "id": "NumismaticOverhaul",
+        "section": "额外游戏内容",
+        "links": [
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/9804.html"
+            }
+        ]
+    },
+    {
+        "mod": "Serene Seasons",
+        "id": "SereneSeasons",
+        "section": "额外游戏内容",
+        "links": [
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/1132.html"
+            }
+        ]
+    },
+    {
+        "mod": "Starry Skies",
+        "id": "StarrySkies",
+        "section": "额外游戏内容",
+        "links": [
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/6922.html"
+            }
+        ]
+    },
+    {
+        "mod": "AppleSkin",
+        "id": "AppleSkin",
+        "section": "Hud 增强",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/squeek502/AppleSkin"
+            },
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/744.html"
+            }
+        ]
+    },
+    {
+        "mod": "BetterF3",
+        "id": "BetterF3",
+        "section": "Hud 增强",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/TreyRuffy/BetterF3/"
+            }
+        ]
+    },
+    {
+        "mod": "Colorful Subtitles",
+        "id": "ColorfulSubtitles",
+        "section": "Hud 增强",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/haykam821/Colorful-Subtitles"
+            }
+        ]
+    },
+    {
+        "mod": "MiniHUD",
+        "id": "MiniHUD",
+        "section": "Hud 增强",
+        "links": [
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/2311.html"
+            }
+        ]
+    },
+    {
+        "mod": "ModernUI",
+        "id": "ModernUI",
+        "section": "Hud 增强",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/BloCamLimb/ModernUI-MC"
+            }
+        ]
+    },
+    {
+        "mod": "Xaero's Minimap",
+        "id": "XaerosMinimap",
+        "section": "Hud 增强",
+        "links": [
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/1701.html"
+            }
+        ]
+    },
+    {
+        "mod": "Xaero's WorldMap",
+        "id": "XaerosWorldMap",
+        "section": "Hud 增强",
+        "links": [
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/1483.html"
+            }
+        ]
+    },
+    {
+        "mod": "Chat Heads",
+        "id": "ChatHeads",
+        "section": "生活质量提升",
+        "links": [
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/4523.html"
+            }
+        ]
+    },
+    {
+        "mod": "CustomSkinLoader",
+        "id": "CustomSkinLoader",
+        "section": "生活质量提升",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/xfl03/MCCustomSkinLoader"
+            }
+        ]
+    },
+    {
+        "mod": "Essential Commands",
+        "id": "EssentialCommands",
+        "section": "生活质量提升",
+        "links": [
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/4493.html"
+            }
+        ]
+    },
+    {
+        "mod": "Inventory Profiles Next",
+        "id": "InventoryProfilesNext",
+        "section": "生活质量提升",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/blackd/Inventory-Profiles"
+            }
+        ]
+    },
+    {
+        "mod": "Iris",
+        "id": "Iris",
+        "section": "生活质量提升",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/IrisShaders/Iris"
+            }
+        ]
+    },
+    {
+        "mod": "LambDynamicLights",
+        "id": "LambDynamicLights",
+        "section": "生活质量提升",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/LambdAurora/LambDynamicLights"
+            }
+        ]
+    },
+    {
+        "mod": "Litematica",
+        "id": "Litematica",
+        "section": "生活质量提升",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/maruohon/litematica"
+            }
+        ]
+    },
+    {
+        "mod": "Just Zoom",
+        "id": "JustZoom",
+        "section": "生活质量提升",
+        "links": [
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/5701.html"
+            }
+        ]
+    },
+    {
+        "mod": "Modmenu",
+        "id": "Modmenu",
+        "section": "生活质量提升",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/TerraformersMC/ModMenu"
+            }
+        ]
+    },
+    {
+        "mod": "Neat",
+        "id": "Neat",
+        "section": "生活质量提升",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/VazkiiMods/Neat"
+            }
+        ]
+    },
+    {
+        "mod": "Presence Footsteps",
+        "id": "PresenceFootsteps",
+        "section": "生活质量提升",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/Sollace/Presence-Footsteps"
+            }
+        ]
+    },
+    {
+        "mod": "Reactive Music",
+        "id": "ReactiveMusic",
+        "section": "生活质量提升",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/CircuitLord/ReactiveMusic"
+            }
+        ]
+    },
+    {
+        "mod": "Roughly Enough Items",
+        "id": "RoughlyEnoughItems",
+        "section": "生活质量提升",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/shedaniel/RoughlyEnoughItems"
+            }
+        ]
+    },
+    {
+        "mod": "Simple Voice Chat",
+        "id": "SimpleVoiceChat",
+        "section": "生活质量提升",
+        "links": [
+            {
+                "type": "Modrinth",
+                "url": "https://modrinth.com/plugin/simple-voice-chat"
+            }
+        ]
+    },
+    {
+        "mod": "Sit",
+        "id": "Sit",
+        "section": "生活质量提升",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/bl4ckscor3/Sit"
+            }
+        ]
+    },
+    {
+        "mod": "Spud's Shops",
+        "id": "SpudsShops",
+        "section": "生活质量提升",
+        "links": [
+            {
+                "type": "Modrinth",
+                "url": "https://modrinth.com/mod/spuds-shops"
+            }
+        ]
+    },
+    {
+        "mod": "Universal Shops",
+        "id": "UniversalShops",
+        "section": "生活质量提升",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/Patbox/UniversalShops"
+            }
+        ]
+    },
+    {
+        "mod": "Universal Graves",
+        "id": "UniversalGraves",
+        "section": "生活质量提升",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/Patbox/UniversalGraves"
+            }
+        ]
+    },
+    {
+        "mod": "FTB Quests",
+        "id": "FTBQuests",
+        "section": "游戏引导和教程",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/FTBTeam/FTB-Quests"
+            }
+        ]
+    },
+    {
+        "mod": "FTB Teams",
+        "id": "FTBTeams",
+        "section": "游戏引导和教程",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/FTBTeam/FTB-Teams/"
+            }
+        ]
+    },
+    {
+        "mod": "ModpackUtils",
+        "id": "ModpackUtils",
+        "section": "游戏引导和教程",
+        "links": [
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/17151.html"
+            }
+        ]
+    },
+    {
+        "mod": "Continuity",
+        "id": "Continuity",
+        "section": "性能优化",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/PepperCode1/Continuity"
+            }
+        ]
+    },
+    {
+        "mod": "Reese's Sodium Options",
+        "id": "ReesesSodiumOptions",
+        "section": "性能优化",
+        "links": [
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/4905.html"
+            }
+        ]
+    },
+    {
+        "mod": "Sodium",
+        "id": "Sodium",
+        "section": "性能优化",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/CaffeineMC/sodium"
+            }
+        ]
+    },
+    {
+        "mod": "Sodium Extra",
+        "id": "SodiumExtra",
+        "section": "性能优化",
+        "links": [
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/3701.html"
+            }
+        ]
+    },
+    {
+        "mod": "spark",
+        "id": "spark",
+        "section": "性能优化",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/lucko/spark"
+            }
+        ]
+    },
+    {
+        "mod": "ThreatenGL",
+        "id": "ThreatenGL",
+        "section": "性能优化",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/Numelon-Softworks/ThreatenGL"
+            }
+        ]
+    },
+    {
+        "mod": "Very Many Players",
+        "id": "VeryManyPlayers",
+        "section": "性能优化",
+        "links": [
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/6473.html"
+            }
+        ]
+    },
+    {
+        "mod": "Lithium",
+        "id": "Lithium",
+        "section": "性能优化",
+        "links": [
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/2292.html"
+            }
+        ]
+    },
+    {
+        "mod": "Architectury API",
+        "id": "ArchitecturyAPI",
+        "section": "API 及库依赖项",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/architectury/architectury-api"
+            }
+        ]
+    },
+    {
+        "mod": "Cardinal Components API",
+        "id": "CardinalComponentsAPI",
+        "section": "API 及库依赖项",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/Ladysnake/Cardinal-Components-API"
+            }
+        ]
+    },
+    {
+        "mod": "Cloth Config API",
+        "id": "ClothConfigAPI",
+        "section": "API 及库依赖项",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/shedaniel/cloth-config"
+            }
+        ]
+    },
+    {
+        "mod": "Fabric API",
+        "id": "FabricAPI",
+        "section": "API 及库依赖项",
+        "links": [
+            {
+                "type": "官网",
+                "url": "https://fabricmc.net/"
+            }
+        ]
+    },
+    {
+        "mod": "Fabric Language Kotlin",
+        "id": "FabricLanguageKotlin",
+        "section": "API 及库依赖项",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/FabricMC/fabric-language-kotlin/"
+            }
+        ]
+    },
+    {
+        "mod": "Forge Config API Port",
+        "id": "ForgeConfigAPIPort",
+        "section": "API 及库依赖项",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/Fuzss/forgeconfigapiport"
+            }
+        ]
+    },
+    {
+        "mod": "FTB Library",
+        "id": "FTBLibrary",
+        "section": "API 及库依赖项",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/FTBTeam/FTB-Library"
+            }
+        ]
+    },
+    {
+        "mod": "GeckoLib",
+        "id": "GeckoLib",
+        "section": "API 及库依赖项",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/bernie-g/geckolib"
+            }
+        ]
+    },
+    {
+        "mod": "GlitchCore",
+        "id": "GlitchCore",
+        "section": "API 及库依赖项",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/Glitchfiend/GlitchCore"
+            }
+        ]
+    },
+    {
+        "mod": "libIPN",
+        "id": "libIPN",
+        "section": "API 及库依赖项",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/blackd/libIPN"
+            }
+        ]
+    },
+    {
+        "mod": "MaLiLib",
+        "id": "MasasLitemodLibrary",
+        "section": "API 及库依赖项",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/maruohon/malilib"
+            }
+        ]
+    },
+    {
+        "mod": "owo-lib",
+        "id": "owolib",
+        "section": "API 及库依赖项",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/wisp-forest/owo-lib"
+            }
+        ]
+    },
+    {
+        "mod": "TerraBlender",
+        "id": "TerraBlender",
+        "section": "API 及库依赖项",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/Glitchfiend/TerraBlender"
+            }
+        ]
+    },
+    {
+        "mod": "YetAnotherConfigLib",
+        "id": "YetAnotherConfigLib",
+        "section": "API 及库依赖项",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/isXander/YetAnotherConfigLib"
+            }
+        ]
+    },
+    {
+        "mod": "Annoying Effects",
+        "id": "AnnoyingEffects",
+        "section": "自制模组",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/MirrorTree-MC/AnnoyingEffects"
+            }
+        ]
+    },
+    {
+        "mod": "Duel",
+        "id": "Duel",
+        "section": "自制模组",
+        "links": [
+            {
+                "type": "Modrinth",
+                "url": "https://modrinth.com/mod/duel-mod"
+            }
+        ]
+    },
+    {
+        "mod": "Lantern In Storm",
+        "id": "LanternInStorm",
+        "section": "自制模组",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/MirrorTree-MC/Lantern-in-Storm"
+            }
+        ]
+    },
+    {
+        "mod": "Mirrortree",
+        "id": "Mirrortree",
+        "section": "自制模组",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/MirrorTree-MC/MirrorTree-Journey"
+            }
+        ]
+    },
+    {
+        "mod": "Rewards",
+        "id": "Rewards",
+        "section": "自制模组",
+        "links": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/MirrorTree-MC"
+            }
+        ]
+    },
+    {
+        "mod": "Dungeons And Taverns",
+        "id": "DungeonsAndTaverns",
+        "section": "额外游戏内容（服务器端）",
+        "links": [
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/10835.html"
+            }
+        ]
+    },
+    {
+        "mod": "Moogs Voyager Structures",
+        "id": "MoogsVoyagerStructures",
+        "section": "额外游戏内容（服务器端）",
+        "links": [
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/8583.html"
+            }
+        ]
+    },
+    {
+        "mod": "Repurposed Structures",
+        "id": "RepurposedStructures",
+        "section": "额外游戏内容（服务器端）",
+        "links": [
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/4518.html"
+            }
+        ]
+    },
+    {
+        "mod": "Sky Villages",
+        "id": "SkyVillages",
+        "section": "额外游戏内容（服务器端）",
+        "links": [
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/5142.html"
+            }
+        ]
+    },
+    {
+        "mod": "Structory",
+        "id": "Structory",
+        "section": "额外游戏内容（服务器端）",
+        "links": [
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/6793.html"
+            }
+        ]
+    },
+    {
+        "mod": "Towns And Towers",
+        "id": "TownsAndTowers",
+        "section": "额外游戏内容（服务器端）",
+        "links": [
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/7000.html"
+            }
+        ]
+    },
+    {
+        "mod": "Terralith",
+        "id": "Terralith",
+        "section": "额外游戏内容（服务器端）",
+        "links": [
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/4557.html"
+            }
+        ]
+    },
+    {
+        "mod": "When Dungeons Arise",
+        "id": "WhenDungeonsArise",
+        "section": "额外游戏内容（服务器端）",
+        "links": [
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/3607.html"
+            }
+        ]
+    },
+    {
+        "mod": "When Dungeons Arise - Seven Seas",
+        "id": "WhenDungeonsAriseSevenSeas",
+        "section": "额外游戏内容（服务器端）",
+        "links": [
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/13131.html"
+            }
+        ]
+    },
+    {
+        "mod": "YUNG's Better End Island",
+        "id": "YUNGsBetterEndIsland",
+        "section": "额外游戏内容（服务器端）",
+        "links": [
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/12175.html"
+            }
+        ]
+    },
+    {
+        "mod": "YUNG's Better Mineshafts",
+        "id": "YUNGsBetterMineshafts",
+        "section": "额外游戏内容（服务器端）",
+        "links": [
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/2788.html"
+            }
+        ]
+    },
+    {
+        "mod": "YUNG's Better Ocean Monuments",
+        "id": "YUNGsBetterOceanMonuments",
+        "section": "额外游戏内容（服务器端）",
+        "links": [
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/7904.html"
+            }
+        ]
+    },
+    {
+        "mod": "YUNG's Better Strongholds",
+        "id": "YUNGsBetterStrongholds",
+        "section": "额外游戏内容（服务器端）",
+        "links": [
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/3787.html"
+            }
+        ]
+    },
+    {
+        "mod": "YUNG's Better Witch Huts",
+        "id": "YUNGsBetterWitchHuts",
+        "section": "额外游戏内容（服务器端）",
+        "links": [
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/6618.html"
+            }
+        ]
+    },
+    {
+        "mod": "YUNG's Bridges",
+        "id": "YUNGsBridges",
+        "section": "额外游戏内容（服务器端）",
+        "links": [
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/5031.html"
+            }
+        ]
+    },
+    {
+        "mod": "YUNG's Extras",
+        "id": "YUNGsExtras",
+        "section": "额外游戏内容（服务器端）",
+        "links": [
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/4276.html"
+            }
+        ]
+    },
+    {
+        "mod": "Ageing Spawners",
+        "id": "AgeingSpawners",
+        "section": "生活质量提升（服务器端）",
+        "links": [
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/5539.html"
+            }
+        ]
+    },
+    {
+        "mod": "Cristel Lib",
+        "id": "CristelLib",
+        "section": "API 及库依赖项（服务器端）",
+        "links": [
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/12373.html"
+            }
+        ]
+    },
+    {
+        "mod": "Midnight Lib",
+        "id": "MidnightLib",
+        "section": "API 及库依赖项（服务器端）",
+        "links": [
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/6776.html"
+            }
+        ]
+    },
+    {
+        "mod": "YUNG's API",
+        "id": "YUNGsAPI",
+        "section": "API 及库依赖项（服务器端）",
+        "links": [
+            {
+                "type": "MC百科",
+                "url": "https://www.mcmod.cn/class/3372.html"
+            }
+        ]
+    }
+]

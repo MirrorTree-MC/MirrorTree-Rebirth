@@ -1,0 +1,86 @@
+site_name: Alice's Tea Party
+site_url: https://wiki.mirror.bearcabbage.top/
+docs_dir: 'docs'
+
+
+copyright: "By Veritas"
+
+nav:
+    - Home: index.md
+    - MirrorTree: mirrortree-handbook.md
+
+theme:
+    name: material
+    palette:
+        - scheme: slate
+          primary: deep-purple
+          accent: purple
+          toggle:
+            icon: material/brightness-4
+            name: Switch to light mode
+
+        - scheme: default
+          primary: deep-purple
+          accent: purple
+          toggle:
+            icon: material/brightness-7
+            name: Switch to dark mode
+    features:
+        - navigation.tabs
+        - navigation.indexes
+        - navigation.expand
+        - search.suggest
+        - search.share
+        - navigation.top
+        - content.tooltips
+        - content.code.copy
+    favicon: assets/favicon.png
+    icon:
+      logo: octicons/ruby-24
+    font:
+        text: Fira Code
+        # code: Fira Code
+        # text: Maple Mono NF CN
+        code: Maple Mono NF CN
+    language: zh
+
+extra_css:
+    - assets/overrides.css
+
+plugins:
+  - search
+
+markdown_extensions:
+    - abbr
+    - admonition
+    - attr_list
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - pymdownx.details
+    - pymdownx.keys
+    - pymdownx.arithmatex:
+        generic: true
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - footnotes
+    - pymdownx.superfences:
+        custom_fences:
+          - name: mermaid
+            class: mermaid
+            format: pymdownx.superfences.fence_code_format
+    - pymdownx.tabbed:
+        alternate_style: true
+    - toc:
+        permalink: true
+    - pymdownx.tilde
+    - pymdownx.critic
+    - pymdownx.highlight:
+        anchor_linenums: true
+        line_spans: __span
+        pygments_lang_class: true
+    - pymdownx.superfences
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/MirrorTree-MC
