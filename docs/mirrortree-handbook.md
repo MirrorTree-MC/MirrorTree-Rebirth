@@ -92,7 +92,7 @@ version: 2.2.5
     left: 0;
     width: 210mm;
     height: 297mm;
-    background: url('https://cos.bearcabbage.top/wp-content/uploads/2025/07/handbook-bg-n.png') no-repeat center center;
+    background: url('https://cos.bearcabbage.top/wp-content/uploads/2025/07/handbook-bg-n-2.png') no-repeat center center;
     background-size: 100% 100%;
     z-index: -1;
     pointer-events: none;
