@@ -66,3 +66,31 @@
     --md-code-hl-generic-color: #CCCED3;
     --md-code-hl-variable-color: #CCCED3;
 }
+
+@media print {
+
+    .md-typeset .admonition,
+    .md-typeset details {
+        margin: 0 !important;
+        padding: 0 !important;
+        box-sizing: border-box !important;
+    }
+
+    /* 正文内容有内边距，标题横条贴边 */
+    .md-typeset .admonition> :not(.admonition-title),
+    .md-typeset details> :not(summary) {
+        padding: 0.6em 1.2em !important;
+    }
+
+    .md-typeset .admonition-title,
+    .md-typeset details>summary {
+        width: 100% !important;
+        margin: 0 !important;
+        border-radius: 0 !important;
+        box-sizing: border-box !important;
+        /* 保留原有 padding，避免内容贴边 */
+        background-clip: padding-box !important;
+        box-shadow: none !important;
+        display: block !important;
+    }
+}

@@ -157,10 +157,10 @@ version: 2.2.5
 
   h1#_1 {
     text-align: center;
-    font-size: 24pt; 
+    font-size: 24pt;
     font-weight: bold;
     font-family: 'SimHei', 'Heiti SC', sans-serif; /* 黑体字体优先 */
-    color: #582C83; 
+    color: #582C83;
   }
   /* 可选：隐藏不需要打印的部分 */
   .md-header,
@@ -328,7 +328,7 @@ version: 2.2.5
 
 服务器使用**收购箱**（类似星露谷收集箱）的方式回收物品。
 
-<img src="https://cos.bearcabbage.top/wp-content/uploads/2025/07/sellingbin.png" alt="收购箱" style="width:65px; float:left; margin-right:1em;" />
+<img src="./sellingbin.png" alt="收购箱" style="width:65px; float:left; margin-right:1em;" />
 
 ##### 收购箱合成配方
 
@@ -670,8 +670,6 @@ version: 2.2.5
 | YUNG's Bridges                   | [MC百科][YUNGsBridges_MC百科]               |
 | YUNG's Extras                    | [MC百科][YUNGsExtras_MC百科]                |
 
-
-
 #### **生活质量提升（服务器端）**
 
 | Mod             | 相关链接                        |
@@ -706,7 +704,8 @@ version: 2.2.5
 4. 若玩家发现运营组成员利用特权违反游戏规则，请公开举报，腐竹将严肃处理。
 5. 本规范最终解释权归运营组(阁楼)所有。
 
-#### 服务器游玩规范细则
+### 服务器游玩规范细则
+
 1. 恶意PVP：单方面战斗挑衅玩家、在PVP期间恶意破坏其他玩家重生点等。处罚封禁0.5-7天，屡次触犯最高可处罚永久封禁。
 2. 偷家：未经同意（游戏聊天、社交软件、游戏内告示牌、书等）破坏玩家建筑、设施、景观，盗取或破坏玩家库存物品等。初犯处罚归还所有物品，复原破坏，公开赔礼道歉；再犯或拒绝接受处罚者封禁1-14天；屡次触犯最高可处罚永久封禁。
 3. 言论过激：在游戏内（游戏聊天、游戏内告示牌、书等）辱骂、挑衅、屡次或过度阴阳玩家。初犯不公开处罚，仅处罚私下赔礼道歉；再犯处罚公开赔礼道歉；屡次触犯或拒绝处罚封禁1-3天；对玩家社群氛围破坏严重者最高处罚封禁14天。
@@ -714,15 +713,16 @@ version: 2.2.5
 
 <div class="page-break"></div><br>
 
-#### QQ社群规范细则
+### QQ社群规范细则
+
 1. 违反法律法规或相关平台规范：灵活判罚，不设上限。
 2. 不当言论：辱骂、威胁、人身攻击、未经同意（或事后谅解）的开盒等：初犯处罚公开赔礼道歉、尽可能消除负面影响，再犯处罚禁言不超过3天，屡次触犯或拒绝接受处罚者最高可移出QQ群并撤销游戏白名单。
 3. 带节奏：发表煽动性言论或挑选证据拼凑传播歪曲事实等：处罚公开解释说明并赔礼道歉，拒绝接受处罚者最高可禁言7天，屡次触犯者最高可移出QQ群并撤销游戏白名单。
 
-#### 执法规范细则
+### 执法规范细则
+
 1. 本部分实行随机抽检与玩家举报并行的巡查方案，仅对被发现的内容进行处理。
 2. 欢迎大家互相监督举报，在运营组鉴定完毕后，举报者可以任选被举报者的一样私人物品拿走。
-
 
 ---
 
@@ -798,7 +798,7 @@ version: 2.2.5
 [Duel_Modrinth]: https://modrinth.com/mod/duel-mod
 [LanternInStorm_GitHub]: https://github.com/MirrorTree-MC/Lantern-in-Storm
 [Mirrortree_GitHub]: https://github.com/MirrorTree-MC/MirrorTree-Journey
-[SellingBin_GitHub]: https://github.com/MirrorTree-MC  
+[SellingBin_GitHub]: https://github.com/MirrorTree-MC
 [Rewards_GitHub]: https://github.com/MirrorTree-MC
 [SyncSignNotice_GitHub]: https://github.com/MirrorTree-MC
 [DungeonsAndTaverns_MC百科]: https://www.mcmod.cn/class/10835.html
