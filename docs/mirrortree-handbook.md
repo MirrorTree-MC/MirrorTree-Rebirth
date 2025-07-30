@@ -7,6 +7,8 @@ version: 2.2.5
 
 # **棱镜树梦境手册**
 
+---
+
 <style>
 /* 目录样式优化 */
 .toc-container {
@@ -141,12 +143,25 @@ version: 2.2.5
     break-inside: avoid;
   }
 
+  .toc-container a,
+  .toc-column a {
+    color: #7959BC !important;
+    text-decoration: none;
+  }
+
   /* 分页标记 */
   .page-break {
     page-break-before: always;
     break-before: page;
   }
 
+  h1#_1 {
+    text-align: center;
+    font-size: 24pt; 
+    font-weight: bold;
+    font-family: 'SimHei', 'Heiti SC', sans-serif; /* 黑体字体优先 */
+    color: #582C83; 
+  }
   /* 可选：隐藏不需要打印的部分 */
   .md-header,
   .md-footer,
@@ -225,7 +240,7 @@ version: 2.2.5
 
     1. 你可以随便走走，或者拿一块木牌在雪地上留言。
     2. 左手边是`JellyNews新闻墙`，大家可以通过 QQ 群的`Mirrobot`机器人投稿新闻，展示在这里（投稿如果太长的话，可能显示不全）。
-    3. 背后是卖纪念品的`雪人商店`，商店用的货币是`狐狸尾巴`，和`银币`是 1:1 兑换。
+    3. 背后是卖纪念品的`雪人商店`，商店用的货币是`狐狸尾巴`，只能通过特殊活动等方式获得。
 
 2. 当你准备好了，就可以走进这栋小屋。
     1. 屋子里有一个讲台，讲台的书里写着游戏的基本信息和棱镜树的背景故事，可以看看。
@@ -241,14 +256,14 @@ version: 2.2.5
         - 你会被传送到聚落中心，以聚落点为中心获得`32x32x32`的安全区。
         - （可以提前在在线地图上查看聚落：[http://map.bearcabbage.top:8100/](http://map.bearcabbage.top:8100/)）
 
-<br />
-<br />
+<div class="page-break"></div>
+<br /><br />
 
-    ![dreamui](https://cos.bearcabbage.top/wp-content/uploads/2025/07/DreamUI.jpg)
+  ![dreamui](https://cos.bearcabbage.top/wp-content/uploads/2025/07/DreamUI.jpg)
 
-1. 到了生存世界后，按`L`键可以打开`任务书`，查看任务和提示。然后就开始努力活着吧！
+4.到了生存世界后，按`L`键可以打开`任务书`，查看任务和提示。然后就开始努力活着吧！
 
-    ![taskbook](https://cos.bearcabbage.top/wp-content/uploads/2025/07/TaskBook.jpg)
+![taskbook](https://cos.bearcabbage.top/wp-content/uploads/2025/07/TaskBook.jpg)
 
 ---
 
@@ -298,6 +313,9 @@ version: 2.2.5
 
 把钱存入小钱包后，可以根据下图所示步骤，取出需要数量的金/银/铜币
 
+<div class="page-break"></div><br>
+<br /><br />
+
 ![小钱包取钱用法](https://cos.bearcabbage.top/wp-content/uploads/2025/07/moneybag.png)
 
 !!! tip "操作技巧"
@@ -310,7 +328,7 @@ version: 2.2.5
 
 服务器使用**收购箱**（类似星露谷收集箱）的方式回收物品。
 
-<img src="https://cos.bearcabbage.top/wp-content/uploads/2025/07/sellingbin.png" alt="收购箱" style="width:75px; float:left; margin-right:1em;" />
+<img src="https://cos.bearcabbage.top/wp-content/uploads/2025/07/sellingbin.png" alt="收购箱" style="width:65px; float:left; margin-right:1em;" />
 
 ##### 收购箱合成配方
 
@@ -340,6 +358,11 @@ version: 2.2.5
 | ------------ | ------------- | ------- |
 | 锡锭         | 40铜          | 64个    |
 | 兆金锭       | 40铜          | 64个    |
+
+<div class="page-break"></div><br>
+
+| 物品名称     | 收购价格      | 数量    |
+| ------------ | ------------- | ------- |
 | 青铜锭       | 50铜          | 64个    |
 | 聚爆石锭     | 70铜          | 64个    |
 | 激水锭       | 80铜          | 64个    |
@@ -361,6 +384,8 @@ version: 2.2.5
 | 神圣锭       | 9银           | 1个     |
 | 炼金锭       | 12银          | 1个     |
 | 倚天锭       | 15银          | 1个     |
+
+<div class="page-break"></div><br>
 
 #### 农作物收购价格
 
@@ -401,6 +426,8 @@ version: 2.2.5
 
     以上类别物品即使喊小熊白菜也一定不会被上架的
 
+<div class="page-break"></div><br>
+
 ## 3 **自制模组说明**
 
 !!! note "游玩建议"
@@ -409,9 +436,6 @@ version: 2.2.5
 
 - 你需要点亮灯笼来使得一片区域变得稳定。当灯笼点亮时，经验条上方不会有圆形指示条，你也可以在四周看到粒子效果。
     - 请不要将点亮了的灯笼误认为是未点亮的灯笼——这条提示看起来很废话——但是真的有人会这样做。
-
-<br />
-<br />
 
 ## 4 **游戏特性**
 
@@ -432,6 +456,8 @@ version: 2.2.5
 不要只在群里说 bug（bug 有点小多小熊白菜记不住了x），建议填表的同时把复现方法和错误信息尽量发给小熊白菜。
 
 ---
+
+<div class="page-break"></div><br>
 
 ## **附录 A：整合包常用快捷键及指令列表**
 
@@ -462,6 +488,11 @@ version: 2.2.5
 | `/warp tp <传送点名称>`   | 传送到指定的公共传送点（中文的聚落暂时无法传送） |
 | `/back`                   | 返回上一个位置                                   |
 | `/randomteleport`或`/rtp` | 以`/spawn set`设置的点为中心，随机传送到世界某处 |
+
+<div class="page-break"></div><br>
+
+| 指令                      | 用途说明                                         |
+| ------------------------- | ------------------------------------------------ |
 | `/workbench`              | 打开工作台界面                                   |
 | `/enderchest`             | 打开末影箱界面                                   |
 
@@ -500,6 +531,8 @@ version: 2.2.5
 
     我们添加了一个汉化补丁，针对部分模组进行了汉化。如果你发现有某个模组的内容有较多未被汉化的，并且对游玩过程造成了困扰，可以在群里或[共享文档](https://docs.qq.com/doc/DZHVnYmtydXN6RHFB)中进行反馈。
 
+<div class="page-break"></div><br>
+
 ### **额外游戏内容**
 
 | Mod                        | 相关链接                                                  |
@@ -509,6 +542,7 @@ version: 2.2.5
 | Biomes O' PLenty           | [MC百科][BiomesOPLenty_MC百科]                            |
 | Bosses Of Mass Destruction | [MC百科][BossesOfMassDestruction_MC百科]                  |
 | Farmer's Delight           | [MC百科][FarmersDelight_MC百科]                           |
+| Kaleidoscope Cookery       | [MC百科][KaleidoscopeCookery_MC百科]                      |
 | Lootr                      | [MC百科][Lootr_MC百科]                                    |
 | Mythic Metals              | [Wiki][MythicMetals_Wiki] / [MC百科][MythicMetals_MC百科] |
 | Numismatic Overhaul        | [MC百科][NumismaticOverhaul_MC百科]                       |
@@ -526,6 +560,8 @@ version: 2.2.5
 | ModernUI           | [GitHub][ModernUI_GitHub]                               |
 | Xaero's Minimap    | [MC百科][XaerosMinimap_MC百科]                          |
 | Xaero's WorldMap   | [MC百科][XaerosWorldMap_MC百科]                         |
+
+<div class="page-break"></div><br>
 
 ### **生活质量提升**
 
@@ -551,6 +587,8 @@ version: 2.2.5
 | Universal Graves        | [GitHub][UniversalGraves_GitHub]       |
 
 ### **游戏引导和教程**
+
+<div class="page-break"></div><br>
 
 | Mod          | 相关链接                      |
 | ------------ | ----------------------------- |
@@ -580,6 +618,11 @@ version: 2.2.5
 | Cloth Config API        | [GitHub][ClothConfigAPI_GitHub]        |
 | Fabric API              | [官网][FabricAPI_官网]                 |
 | Fabric Language Kotlin  | [GitHub][FabricLanguageKotlin_GitHub]  |
+
+<div class="page-break"></div><br>
+
+| Mod                     | 相关链接                               |
+| ----------------------- | -------------------------------------- |
 | Forge Config API Port   | [GitHub][ForgeConfigAPIPort_GitHub]    |
 | FTB Library             | [GitHub][FTBLibrary_GitHub]            |
 | GeckoLib                | [GitHub][GeckoLib_GitHub]              |
@@ -599,11 +642,14 @@ version: 2.2.5
 | Lantern In Storm | [GitHub][LanternInStorm_GitHub]  |
 | Mirrortree       | [GitHub][Mirrortree_GitHub]      |
 | Rewards          | [GitHub][Rewards_GitHub]         |
+| Selling Bin      | [GitHub][SellingBin_GitHub]      |
 | Sync Sign Notice | [GitHub][SyncSignNotice_GitHub]  |
 
 ### **服务器端**
 
 #### **额外游戏内容（服务器端）**
+
+<div class="page-break"></div><br>
 
 | Mod                              | 相关链接                                    |
 | -------------------------------- | ------------------------------------------- |
@@ -624,6 +670,8 @@ version: 2.2.5
 | YUNG's Bridges                   | [MC百科][YUNGsBridges_MC百科]               |
 | YUNG's Extras                    | [MC百科][YUNGsExtras_MC百科]                |
 
+
+
 #### **生活质量提升（服务器端）**
 
 | Mod             | 相关链接                        |
@@ -632,19 +680,55 @@ version: 2.2.5
 
 #### **API 及库依赖项（服务器端）**
 
+<div class="page-break"></div><br>
+
 | Mod          | 相关链接                     |
 | ------------ | ---------------------------- |
 | Cristel Lib  | [MC百科][CristelLib_MC百科]  |
 | Midnight Lib | [MC百科][MidnightLib_MC百科] |
 | YUNG's API   | [MC百科][YUNGsAPI_MC百科]    |
 
-## **附录 D：棱镜树规范**
+## **附录 D：棱镜树规范（第四版）**
 
-!!! warning "写不下了"
+!!! tips "省流版"
 
-    详见群公告……
+    🛑游戏内禁止：恶意PVP、偷家、辱骂、挑衅、阴阳怪气、强行造访、强行连接、强行赠送
+
+    💬QQ群内禁止行为：违法违规、辱骂、威胁、人身攻击、开盒、带节奏、歪曲事实、煽动言论
+
+    ⚖️执法方式：违规玩法将被抽查或举报处理，举报成功可挑选对方一件物品
+
+本服为超困难生存类型服务器，在游戏前请仔细阅读[棱镜树梦境手册]，任务书[L键]将帮助您了解各种玩法，新人可在群里询问是否有老玩家愿意带（但将失去大量游戏体验）。
+
+1. 本规范适用于棱镜树全体玩家。
+2. 若被判罚玩家对判罚有异议，可申请其他运营组成员重审。
+3. 若由服务器问题导致玩家墓碑丢失，需提交相应指南针向运营组申请理赔。
+4. 若玩家发现运营组成员利用特权违反游戏规则，请公开举报，腐竹将严肃处理。
+5. 本规范最终解释权归运营组(阁楼)所有。
+
+#### 服务器游玩规范细则
+1. 恶意PVP：单方面战斗挑衅玩家、在PVP期间恶意破坏其他玩家重生点等。处罚封禁0.5-7天，屡次触犯最高可处罚永久封禁。
+2. 偷家：未经同意（游戏聊天、社交软件、游戏内告示牌、书等）破坏玩家建筑、设施、景观，盗取或破坏玩家库存物品等。初犯处罚归还所有物品，复原破坏，公开赔礼道歉；再犯或拒绝接受处罚者封禁1-14天；屡次触犯最高可处罚永久封禁。
+3. 言论过激：在游戏内（游戏聊天、游戏内告示牌、书等）辱骂、挑衅、屡次或过度阴阳玩家。初犯不公开处罚，仅处罚私下赔礼道歉；再犯处罚公开赔礼道歉；屡次触犯或拒绝处罚封禁1-3天；对玩家社群氛围破坏严重者最高处罚封禁14天。
+4. 缺乏边界感：在玩家明确表示不接受造访、连接、赠予等合理游戏内行为时坚持实施上述行为。运营组可以出面调解，调解失败时由调解者灵活处罚，封顶不超过封禁3天。
+
+<div class="page-break"></div><br>
+
+#### QQ社群规范细则
+1. 违反法律法规或相关平台规范：灵活判罚，不设上限。
+2. 不当言论：辱骂、威胁、人身攻击、未经同意（或事后谅解）的开盒等：初犯处罚公开赔礼道歉、尽可能消除负面影响，再犯处罚禁言不超过3天，屡次触犯或拒绝接受处罚者最高可移出QQ群并撤销游戏白名单。
+3. 带节奏：发表煽动性言论或挑选证据拼凑传播歪曲事实等：处罚公开解释说明并赔礼道歉，拒绝接受处罚者最高可禁言7天，屡次触犯者最高可移出QQ群并撤销游戏白名单。
+
+#### 执法规范细则
+1. 本部分实行随机抽检与玩家举报并行的巡查方案，仅对被发现的内容进行处理。
+2. 欢迎大家互相监督举报，在运营组鉴定完毕后，举报者可以任选被举报者的一样私人物品拿走。
+
 
 ---
+
+<br /><br /><br />
+
+![合影](https://cos.bearcabbage.top/wp-content/uploads/2025/07/QQ图片20250730172435.jpeg)
 
 <!-- 链接统一管理 -->
 [AdventureZ_Wiki]: https://globox1997.github.io/wiki/mods/AdventureZ/
@@ -714,6 +798,7 @@ version: 2.2.5
 [Duel_Modrinth]: https://modrinth.com/mod/duel-mod
 [LanternInStorm_GitHub]: https://github.com/MirrorTree-MC/Lantern-in-Storm
 [Mirrortree_GitHub]: https://github.com/MirrorTree-MC/MirrorTree-Journey
+[SellingBin_GitHub]: https://github.com/MirrorTree-MC  
 [Rewards_GitHub]: https://github.com/MirrorTree-MC
 [SyncSignNotice_GitHub]: https://github.com/MirrorTree-MC
 [DungeonsAndTaverns_MC百科]: https://www.mcmod.cn/class/10835.html
@@ -737,3 +822,4 @@ version: 2.2.5
 [MidnightLib_MC百科]: https://www.mcmod.cn/class/6776.html
 [YUNGsAPI_MC百科]: https://www.mcmod.cn/class/3372.html
 [StarrySkies_MC百科]: https://www.mcmod.cn/class/6922.html
+[KaleidoscopeCookery_MC百科]: https://www.mcmod.cn/class/20850.html
