@@ -328,7 +328,7 @@ version: 2.2.5
 
 服务器使用**收购箱**（类似星露谷收集箱）的方式回收物品。
 
-<img src="./sellingbin.png" alt="收购箱" style="width:65px; float:left; margin-right:1em;" />
+<img src="https://github.com/MirrorTree-MC/MirrorTree-Rebirth/blob/main/docs/sellingbin.png?raw=true" alt="收购箱" style="width:65px; float:left; margin-right:1em;" />
 
 ##### 收购箱合成配方
 
