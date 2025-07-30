@@ -2,9 +2,207 @@
 title: 棱镜树梦境手册
 created: 2025-02-02T17:58:29+08:00
 modified: 2025-07-04T11:15:47+08:00
+version: 2.2.5
 ---
 
 # **棱镜树梦境手册**
+
+<style>
+/* 目录样式优化 */
+.toc-container {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.toc-column {
+  flex: 1;
+  min-width: 300px;
+  max-width: 48%;
+}
+
+.toc-container h3 {
+  font-size: 1.1rem;
+  margin: 1rem 0 0.5rem 0;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.toc-container ul {
+  margin: 0.5rem 0;
+  padding-left: 1.2rem;
+  list-style-type: none;
+}
+
+.toc-container li {
+  margin: 0.3rem 0;
+  line-height: 1.4;
+}
+
+.toc-container a {
+  color: #0969da;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.toc-container a:hover {
+  text-decoration: underline;
+}
+
+/* 嵌套列表样式 */
+.toc-container ul ul {
+  margin-left: 0.8rem;
+  margin-top: 0.2rem;
+  padding-left: 1rem;
+}
+
+.toc-container ul ul li {
+  margin: 0.2rem 0;
+  font-size: 0.9rem;
+}
+
+/* 打印时仅控制分页行为，保留原样式 */
+@media print {
+  @page {
+    size: A4;
+    margin: 0; /* 页边距为0，由我们手动控制内容边距 */
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  body {
+    position: relative;
+  }
+
+  /* 添加固定背景图，每页都显示 */
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 210mm;
+    height: 297mm;
+    background: url('https://cos.bearcabbage.top/wp-content/uploads/2025/07/handbook-bg-n.png') no-repeat center center;
+    background-size: 100% 100%;
+    z-index: -1;
+    pointer-events: none;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* 主内容保持标准边距 */
+  .md-content {
+    box-sizing: border-box;
+    padding-top: 20mm;
+    padding-bottom: 20mm;
+    padding: 25mm;
+    background: transparent;
+    position: relative;
+    z-index: 0;
+  }
+
+.md-content table {
+    max-width: 100%;
+    width: 100%;
+    table-layout: fixed;
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+
+  /* 限制图片宽度 */
+  .md-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1em auto; /* 可选：居中显示 */
+    page-break-inside: avoid; /* 避免分页中断图片 */
+  }
+
+  /* 强制所有元素不超过容器边界 */
+  .md-content * {
+    box-sizing: border-box;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
+  /* 避免某些元素跨页 */
+  .toc-container,
+  .toc-column {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* 分页标记 */
+  .page-break {
+    page-break-before: always;
+    break-before: page;
+  }
+
+  /* 可选：隐藏不需要打印的部分 */
+  .md-header,
+  .md-footer,
+  .md-sidebar,
+  .md-tabs {
+    display: none !important;
+  }
+}
+</style>
+
+<div>
+
+<div class="toc-container" style="display: flex; gap: 2rem; flex-wrap: wrap;">
+
+<div class="toc-column" style="flex: 1; min-width: 200px;">
+
+<h3>🚀 快速开始</h3>
+<ul>
+<li><a href="#_2">⭐️ 如何加入服务器</a></li>
+<li><a href="#_3">⭐️ 服务器怎么玩</a></li>
+</ul>
+
+<h3>📚 附录</h3>
+<ul>
+<li><a href="#a">⌨️ 快捷键及指令</a></li>
+<li><a href="#b">🏘️ 聚落说明</a></li>
+<li><a href="#c">📦 模组列表</a></li>
+<li><a href="#d">📋 棱镜树规范</a></li>
+</ul>
+
+</div>
+
+<div class="toc-column" style="flex: 1; min-width: 200px;">
+
+<h3>🎮 游戏机制</h3>
+<ul>
+<li><a href="#1">🌙 入梦与醒来</a></li>
+<li><a href="#2">💲 经济系统</a>
+<ul>
+<li><a href="#20">💰 钱包</a></li>
+<li><a href="#21">📦 收购</a></li>
+<li><a href="#22">🛒 出售</a></li>
+</ul>
+</li>
+<li><a href="#3">🔧 自制模组说明</a></li>
+<li><a href="#4">⚙️ 游戏特性</a></li>
+<li><a href="#5-bug">🐛 BUG 反馈途径</a></li>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+---
 
 ## **⭐️如何加入服务器**
 
@@ -16,6 +214,9 @@ modified: 2025-07-04T11:15:47+08:00
         2. 加入服务器之后根据提示输入`/register <密码> <重复密码>`注册。
         3. 以后登录的时候输入`/l <密码>`登录。
 
+<div class="page-break"></div>
+<br />
+
 ## **⭐️服务器怎么玩**
 
 1. 你会出生在一栋小屋前，这里叫`狐狸的卧室`，是出生点大厅。
@@ -25,22 +226,27 @@ modified: 2025-07-04T11:15:47+08:00
     1. 你可以随便走走，或者拿一块木牌在雪地上留言。
     2. 左手边是`JellyNews新闻墙`，大家可以通过 QQ 群的`Mirrobot`机器人投稿新闻，展示在这里（投稿如果太长的话，可能显示不全）。
     3. 背后是卖纪念品的`雪人商店`，商店用的货币是`狐狸尾巴`，和`银币`是 1:1 兑换。
+
 2. 当你准备好了，就可以走进这栋小屋。
     1. 屋子里有一个讲台，讲台的书里写着游戏的基本信息和棱镜树的背景故事，可以看看。
     2. 小屋左边有三个卧室，每个房间里都有一张床。
+
 3. 右键床可以睡觉`入梦`，进入`噩梦世界`（生存世界）。你会看到一个菜单，有两个选择：
     1. **在野外的位置随机入梦**：
         - 你会被随机传送到离世界中心`3000格`以内的某个地方。
         - 入梦后你会获得一个自己的**入梦点**和`32x32x32`的安全区。
         - 如果要和朋友结伴入梦，可以在入梦前站在床边，3秒间隔内先后点击**在野外的位置随机入梦**即可（第二个人的入梦点会在第一个人周围`128格`范围内）。
     2. **在安全的聚落入梦**：
-        - 你可以选择一个聚落出生，菜单上会显示聚落名字和坐标。
+        - 你可以选择一个聚落出生，菜单上会显示聚落名字和坐标。你也可以先浏览一下[聚落介绍](#b)章节。
         - 你会被传送到聚落中心，以聚落点为中心获得`32x32x32`的安全区。
         - （可以提前在在线地图上查看聚落：[http://map.bearcabbage.top:8100/](http://map.bearcabbage.top:8100/)）
 
+<br />
+<br />
+
     ![dreamui](https://cos.bearcabbage.top/wp-content/uploads/2025/07/DreamUI.jpg)
 
-4. 到了生存世界后，按`L`键可以打开`任务书`，查看任务和提示。然后就开始努力活着吧！
+1. 到了生存世界后，按`L`键可以打开`任务书`，查看任务和提示。然后就开始努力活着吧！
 
     ![taskbook](https://cos.bearcabbage.top/wp-content/uploads/2025/07/TaskBook.jpg)
 
@@ -49,6 +255,8 @@ modified: 2025-07-04T11:15:47+08:00
 !!! tip "常用工具"
 
     建议善用[棱镜树 Wiki](https://wiki.mirror.bearcabbage.top/)，里面会有整合包的更新日志（最新的内容会首先在此发布）以及服务器在线地图链接等。
+
+<div class="page-break"></div><br>
 
 ## 1 **入梦与醒来**
 
@@ -61,8 +269,8 @@ modified: 2025-07-04T11:15:47+08:00
     - 方式：睡觉时点击聊天窗中的「醒来走走」
     - 效果：你将回到狐狸的卧室（出生点大厅）的床前
 - 沉睡：
-    - 方式：再点击狐狸的卧室（出生点大厅）的床回
-    - 效果：你将到梦境世界（游戏主世界）「醒来」的床边
+    - 方式：再点击狐狸的卧室（出生点大厅）的床回到游戏主世界
+    - 效果：你将到达梦境世界（游戏主世界）「醒来」的床边
 
 - 带新玩家结队入梦：
     - 老玩家醒来，回到狐狸的卧室，与新玩家结队入梦（老玩家先点击床，新玩家3s内点击床跟随）
@@ -72,13 +280,59 @@ modified: 2025-07-04T11:15:47+08:00
     - 效果：清除入梦点标记、重置玩家重生点、传送回第一次登陆服务器的出生点。你可以重新作为新玩家入梦
     - ***每人只有三次重新入梦的机会***
 
-## 2 **服务器商店价目表**
+## 2 **经济系统**
 
 !!! tip "货币换算"
 
-    100 铜 = 1 银
+    100 铜 = 1 银   100 银 = 1 金
 
-### 2.1 **收购价格**
+### 2.0 **钱包**
+
+#### 存钱
+
+1. 拿着钱袋右键可以打开，钱袋内的钱币会放入背包
+
+2. 拿着钱币（金银铜）右键可以把钱存进小钱包，在背包界面右上角（如下图所示）
+
+#### **货币兑换**
+
+把钱存入小钱包后，可以根据下图所示步骤，取出需要数量的金/银/铜币
+
+![小钱包取钱用法](https://cos.bearcabbage.top/wp-content/uploads/2025/07/moneybag.png)
+
+!!! tip "操作技巧"
+
+    按住Shift键点击数量调节箭头，可以每次10递增/减
+
+### 2.1 **收购**
+
+#### 收购机制说明
+
+服务器使用**收购箱**（类似星露谷收集箱）的方式回收物品。
+
+<img src="https://cos.bearcabbage.top/wp-content/uploads/2025/07/sellingbin.png" alt="收购箱" style="width:75px; float:left; margin-right:1em;" />
+
+##### 收购箱合成配方
+
+```text
+木板    银币    木板
+木板    木板    木板
+```
+
+##### 材料说明
+
+- **木板**：任意种类木板（`minecraft:planks` 标签）
+- **银币**：`numismatic-overhaul:silver_coin`
+
+##### 使用方法
+
+- 将可收购物品投入收购箱
+- 每天早上8:00（游戏内时间）自动售出，钱袋直接生成在收购箱内
+
+!!! warning "注意事项"
+
+    - 请确保箱内有足够空间存放钱袋，避免物品丢失
+    - 价格如有变动，以服务器内实时价格为准
 
 #### 金属锭收购价格
 
@@ -117,33 +371,35 @@ modified: 2025-07-04T11:15:47+08:00
 | 洋葱     | 1银50铜  | 64个 |
 | 稻米     | 2银      | 64个 |
 
-#### 收购机制说明
+### 2.2 出售
 
-服务器使用**收购箱**（类似星露谷收集箱）的方式回收物品。
+使用命令`/warp tp shop`前往「观畴园」商城，结束购买后可以使用`/back`返回原来的位置。
 
-##### 收购箱合成配方
+物品出售价格会根据服务器经济状况浮动，请以游戏内实际价格为准
 
-```text
-木板    银币    木板
-木板    木板    木板
-```
+#### 目前出售的商品类别
 
-##### 材料说明
+- 建筑材料
 
-- **木板**：任意种类木板（`minecraft:planks` 标签）
-- **银币**：`numismatic-overhaul:silver_coin`
+- 食品
 
-##### 使用方法
+- 药水等消耗品
 
-- 将可收购物品投入收购箱
-- 每天早上8:00（游戏内时间）自动售出，钱袋直接生成在收购箱内
+!!! tip "Tips"
 
-!!! warning "注意事项"
+    如果遇到以上类别物品没有上架商店，可以喊小熊白菜去上架
 
-    - 请确保箱内有足够空间存放钱袋，避免物品丢失
-    - 价格如有变动，以服务器内实时价格为准
+#### 不会上架商店的商品类别
 
-### 2.2 **出售价格**
+- 红石元件
+
+- 彩灯
+
+- 矿石（含原矿、粗矿、锭、合金锭、粗块、块等）
+
+!!! warning "Warning"
+
+    以上类别物品即使喊小熊白菜也一定不会被上架的
 
 ## 3 **自制模组说明**
 
@@ -153,6 +409,9 @@ modified: 2025-07-04T11:15:47+08:00
 
 - 你需要点亮灯笼来使得一片区域变得稳定。当灯笼点亮时，经验条上方不会有圆形指示条，你也可以在四周看到粒子效果。
     - 请不要将点亮了的灯笼误认为是未点亮的灯笼——这条提示看起来很废话——但是真的有人会这样做。
+
+<br />
+<br />
 
 ## 4 **游戏特性**
 
@@ -206,7 +465,36 @@ modified: 2025-07-04T11:15:47+08:00
 | `/workbench`              | 打开工作台界面                                   |
 | `/enderchest`             | 打开末影箱界面                                   |
 
-## **附录 B：模组列表**
+## **附录 B：聚落说明**
+
+### 原点城
+
+- 位于梦境世界中心[0,0]的聚落。
+- 悬浮在天空之上的华丽庄园。
+- 聚落下方的陆地有大片枫叶林和薰衣草花海。
+
+### 无名丘陵
+
+- 玩家最多、占地最大的聚落！
+- 你甚至可以看到手搓像素画）
+- 大面积农田牲畜圈，不愁吃喝。
+- 风格迥异（真的）、规划随意的众多建筑。
+
+### 远苔岛
+
+- 「旧名：曾经不欢迎联通的岛」
+- 「这里似乎是一片废墟」
+- 「孤悬在远海的深处」
+- 「快跑！岛上的人呐喊着」
+- （有小熊白菜的烂尾楼）
+
+### 恩情半岛
+
+- 拥有基础的生电设施，生产力较高。
+- 最大的优点是位于各个聚落之间，去哪里都很方便。
+- 风景不错的大型海岛，目前没有建筑，可开发地皮充裕。
+
+## **附录 C：模组列表**
 
 !!! note "服务器汉化说明"
 
@@ -350,7 +638,7 @@ modified: 2025-07-04T11:15:47+08:00
 | Midnight Lib | [MC百科][MidnightLib_MC百科] |
 | YUNG's API   | [MC百科][YUNGsAPI_MC百科]    |
 
-## **附录 C：棱镜树规范**
+## **附录 D：棱镜树规范**
 
 !!! warning "写不下了"
 
